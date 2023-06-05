@@ -1,0 +1,48 @@
+html,
+body{
+    height: 100%;
+
+}
+body{
+    background: #eb2da9;
+    text-align: center;
+}
+
+h1{
+    font-size: 4em;
+    color: #fff;
+    background-color:none;
+
+}
+
+button{
+    cursor: pointer;
+    margin: 0 5px;
+    padding: 10px 30px;
+    background: fixed;
+    background-color: black;
+    border: 1px solid #485cef;
+    outline: 0;
+    color: #fff;
+    transition: all ease 300ms;
+}
+button:hover{
+    color: #333;
+    background: #e06b05;
+}
+
+.table{
+    display: table;
+    width: 100%;
+    height: 100%;
+
+}
+.cell{
+    display: table-cell;
+    vertical-align: middle;
+    cursor: default;
+}
+
+.hide{
+    display: none;
+}
